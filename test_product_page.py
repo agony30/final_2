@@ -22,3 +22,4 @@ def test_guest_can_add_product_to_basket(browser):
     basket_total_sum = float(basket_text[basket_text.find('£') + 1:basket_text.find('\n')])  # сумма в корзине
     assert float(page.browser.find_element(*ProductPageLocators.PRICE).text[1:]) == basket_total_sum, 'Цена не равна'
     print('Сумма корзины:', basket_total_sum)
+
