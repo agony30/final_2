@@ -8,3 +8,5 @@ class ProductPage(BasePage):
         button = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET)
         button.click()
 
+
+
