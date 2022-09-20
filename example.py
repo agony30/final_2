@@ -1,4 +1,4 @@
-# файл для проверки кусочков кода. Никак не влияет на программу
+# Файл для проверки кусочков кода. Никак не влияет на программу
 
 from .pages import base_page
 from selenium.webdriver.common.by import By
